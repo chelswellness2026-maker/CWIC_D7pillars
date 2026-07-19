@@ -110,79 +110,77 @@ color:var(--pink);
 
 }
 
-/*================ HERO ================*/
+/* ===== HERO SECTION ===== */
 
 .hero{
+    width:100%;
+    height:100vh;
 
-height:100vh;
+    background:
+    linear-gradient(
+        rgba(20,90,70,0.55),
+        rgba(245,108,167,0.30)
+    ),
+   url("../images/frontpage.png");
 
-background:linear-gradient(rgba(0,0,0,.45),
-rgba(0,0,0,.45)),
-url("../images/hero.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 
-background-size:cover;
-background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
 
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
+    color:#fff;
+    position:relative;
+}
 
-padding:20px;
-
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.15);
 }
 
 .hero-content{
-
-color:white;
-max-width:850px;
-
+    position:relative;
+    z-index:2;
+    max-width:900px;
+    padding:20px;
 }
 
-.hero h1{
-
-font-size:60px;
-margin-bottom:20px;
-
+.hero-content h1{
+    font-size:4rem;
+    font-weight:700;
+    margin-bottom:20px;
+    text-shadow:2px 2px 8px rgba(0,0,0,.4);
 }
 
-.hero p{
-
-font-size:20px;
-margin-bottom:35px;
-
-line-height:1.7;
-
+.hero-content p{
+    font-size:1.3rem;
+    line-height:1.8;
+    margin-bottom:35px;
+    text-shadow:1px 1px 6px rgba(0,0,0,.4);
 }
 
-.btn{
-
-display:inline-block;
-
-padding:15px 40px;
-
-background:var(--pink);
-
-color:white;
-
-text-decoration:none;
-
-border-radius:50px;
-
-transition:.4s;
-
-font-weight:600;
-
+.hero-content .btn{
+    display:inline-block;
+    background:#1f8a70;
+    color:#fff;
+    padding:16px 40px;
+    border-radius:50px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+    transition:.35s;
 }
 
-.btn:hover{
-
-background:var(--green);
-
-transform:translateY(-4px);
-
+.hero-content .btn:hover{
+    background:#f56ca7;
+    transform:translateY(-3px);
 }
-
 /*================ ABOUT ================*/
 
 .about{
