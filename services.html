@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Services | Chels Wellness International Company</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+:root{
+--green:#1f8a70;
+--pink:#f56ca7;
+--light:#f8f9fa;
+--dark:#2c3e50;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fff;
+color:#333;
+}
+
+/* Banner */
+
+.page-banner{
+margin-top:90px;
+height:380px;
+background:linear-gradient(rgba(31,138,112,.85),
+rgba(245,108,167,.75)),
+url("images/services-banner.jpg") center center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:#fff;
+padding:20px;
+}
+
+.page-banner h1{
+font-size:58px;
+margin-bottom:15px;
+}
+
+.page-banner p{
+font-size:20px;
+}
+
+/* Intro */
+
+.intro{
+padding:80px 10%;
+text-align:center;
+}
+
+.intro h2{
+font-size:40px;
+color:var(--green);
+margin-bottom:20px;
+}
+
+.intro p{
+max-width:900px;
+margin:auto;
+font-size:18px;
+line-height:1.9;
+}
+
+/* Services */
+
+.services{
+padding:30px 10% 80px;
+background:var(--light);
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.service-card{
+background:#fff;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.service-card:hover{
+transform:translateY(-8px);
+}
+
+.service-card i{
+font-size:55px;
+color:var(--pink);
+margin-bottom:20px;
+}
+
+.service-card h3{
+color:var(--green);
+margin-bottom:15px;
+}
+
+.service-card p{
+line-height:1.8;
+margin-bottom:15px;
+}
+
+.service-card ul{
+padding-left:20px;
+line-height:1.8;
+}
+
+/* Why Choose */
+
+.choose{
+padding:80px 10%;
+}
+
+.choose h2{
+text-align:center;
+font-size:40px;
+color:var(--green);
+margin-bottom:50px;
+}
+
+.choose-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.choose-box{
+background:#fff;
+padding:30px;
+text-align:center;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.choose-box i{
+font-size:45px;
+color:var(--green);
+margin-bottom:15px;
+}
+
+/* CTA */
+
+.cta{
+background:linear-gradient(135deg,var(--green),var(--pink));
+padding:80px 10%;
+text-align:center;
+color:white;
+}
+
+.cta h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.cta p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.cta a{
+display:inline-block;
+padding:15px 35px;
+background:white;
+color:var(--green);
+text-decoration:none;
+border-radius:40px;
+font-weight:600;
+transition:.3s;
+}
+
+.cta a:hover{
+background:#f1f1f1;
+transform:translateY(-3px);
+}
+
+@media(max-width:768px){
+
+.page-banner h1{
+font-size:40px;
+}
+
+.intro h2,
+.choose h2,
+.cta h2{
+font-size:30px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<img src="images/logo.png" alt="CWIC Logo">
+
+<h2>Chels Wellness International</h2>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html" class="active">Services</a></li>
+<li><a href="executives.html">Executive Team</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<!-- Banner -->
+
+<section class="page-banner">
+
+<div>
+
+<h1>Our Services</h1>
+
+<p>Professional Wellness, Business, Training & Community Development Solutions</p>
+
+</div>
+
+</section>
+
+<!-- Intro -->
+
+<section class="intro">
+
+<h2>What We Offer</h2>
+
+<p>
+
+Chels Wellness International Company provides a variety of wellness,
+business, educational, and professional development services designed
+to empower individuals, organizations, and communities. We are committed
+to excellence, innovation, and sustainable growth.
+
+</p>
+
+</section>
+
+<!-- Services -->
+
+<section class="services">
+
+<div class="service-grid">
+
+<div class="service-card">
+
+<i class="fas fa-heartbeat"></i>
+
+<h3>Wellness Programs</h3>
+
+<p>Promoting healthier lifestyles through wellness initiatives and education.</p>
+
+<ul>
+<li>Health Awareness</li>
+<li>Wellness Coaching</li>
+<li>Lifestyle Improvement</li>
+<li>Community Wellness</li>
+</ul>
+
+</div>
+
+<div class="service-card">
+
+<i class="fas fa-briefcase"></i>
+
+<h3>Business Development</h3>
+
+<p>Helping entrepreneurs and organizations grow through strategic guidance.</p>
+
+<ul>
+<li>Business Consulting</li>
+<li>Strategic Planning</li>
+<li>Leadership Coaching</li>
+<li>Business Networking</li>
+</ul>
+
+</div>
+
+<div class="service-card">
+
+<i class="fas fa-graduation-cap"></i>
+
+<h3>Training & Education</h3>
+
+<p>Providing learning opportunities that build skills and leadership.</p>
+
+<ul>
+<li>Professional Development</li>
+<li>Leadership Seminars</li>
+<li>Skills Training</li>
+<li>Workshops</li>
+</ul>
+
+</div>
+
+<div class="service-card">
+
+<i class="fas fa-laptop-code"></i>
+
+<h3>Technology Services</h3>
+
+<p>Supporting digital transformation and technology adoption.</p>
+
+<ul>
+<li>IT Consulting</li>
+<li>Digital Solutions</li>
+<li>Website Development</li>
+<li>Technology Training</li>
+</ul>
+
+</div>
+
+<div class="service-card">
+
+<i class="fas fa-bullhorn"></i>
+
+<h3>Marketing & Branding</h3>
+
+<p>Helping businesses build trusted brands and reach their audience.</p>
+
+<ul>
+<li>Brand Strategy</li>
+<li>Digital Marketing</li>
+<li>Social Media</li>
+<li>Corporate Identity</li>
+</ul>
+
+</div>
+
+<div class="service-card">
+
+<i class="fas fa-users"></i>
+
+<h3>Community Engagement</h3>
+
+<p>Creating meaningful partnerships that strengthen communities.</p>
+
+<ul>
+<li>Volunteer Programs</li>
+<li>Corporate Social Responsibility</li>
+<li>Partnership Development</li>
+<li>Community Outreach</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Why Choose Us -->
+
+<section class="choose">
+
+<h2>Why Choose Chels Wellness International?</h2>
+
+<div class="choose-grid">
+
+<div class="choose-box">
+
+<i class="fas fa-award"></i>
+
+<h3>Professional Leadership</h3>
+
+<p>Experienced executive team committed to excellence.</p>
+
+</div>
+
+<div class="choose-box">
+
+<i class="fas fa-lightbulb"></i>
+
+<h3>Innovation</h3>
+
+<p>Modern solutions designed for sustainable success.</p>
+
+</div>
+
+<div class="choose-box">
+
+<i class="fas fa-handshake"></i>
+
+<h3>Integrity</h3>
+
+<p>Building trusted relationships through honesty and transparency.</p>
+
+</div>
+
+<div class="choose-box">
+
+<i class="fas fa-globe"></i>
+
+<h3>Global Vision</h3>
+
+<p>Connecting people and opportunities across communities.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Call to Action -->
+
+<section class="cta">
+
+<h2>Let's Build Success Together</h2>
+
+<p>
+
+Whether you're seeking wellness programs, business consulting,
+leadership development, or strategic partnerships, Chels Wellness
+International Company is ready to work with you.
+
+</p>
+
+<a href="contact.html">Contact Us Today</a>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<div class="footer-content">
+
+<img src="images/logo.png" width="80" alt="CWIC Logo">
+
+<h2>Chels Wellness International Company</h2>
+
+<p>Leadership • Wellness • Innovation</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+<a href="#"><i class="fas fa-envelope"></i></a>
+
+</div>
+
+<p>
+
+© 2026 Chels Wellness International Company. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

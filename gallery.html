@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery | Chels Wellness International Company</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+:root{
+--green:#1f8a70;
+--pink:#f56ca7;
+--light:#f7f7f7;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:white;
+}
+
+/* Banner */
+
+.banner{
+
+margin-top:90px;
+height:350px;
+
+background:
+linear-gradient(rgba(31,138,112,.85),
+rgba(245,108,167,.75)),
+url(images/gallery-banner.jpg);
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+color:white;
+
+}
+
+.banner h1{
+
+font-size:60px;
+
+}
+
+.banner p{
+
+font-size:20px;
+
+margin-top:10px;
+
+}
+
+/* Gallery */
+
+.gallery{
+
+padding:80px 8%;
+
+background:var(--light);
+
+}
+
+.gallery h2{
+
+text-align:center;
+
+font-size:40px;
+
+color:var(--green);
+
+margin-bottom:15px;
+
+}
+
+.gallery p{
+
+text-align:center;
+
+margin-bottom:50px;
+
+color:#666;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:25px;
+
+}
+
+.item{
+
+background:white;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.item:hover{
+
+transform:translateY(-8px);
+
+}
+
+.item img{
+
+width:100%;
+height:250px;
+object-fit:cover;
+
+}
+
+.caption{
+
+padding:20px;
+
+}
+
+.caption h3{
+
+color:var(--green);
+
+margin-bottom:10px;
+
+}
+
+.caption p{
+
+text-align:left;
+
+font-size:15px;
+
+margin:0;
+
+}
+
+/* Upload Placeholder */
+
+.placeholder{
+
+width:100%;
+height:250px;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:#ececec;
+
+color:#999;
+
+font-size:18px;
+
+border-bottom:1px solid #ddd;
+
+}
+
+/* Video */
+
+.video{
+
+padding:80px 10%;
+
+}
+
+.video h2{
+
+text-align:center;
+
+color:var(--green);
+
+margin-bottom:40px;
+
+}
+
+.video iframe{
+
+width:100%;
+height:550px;
+
+border-radius:20px;
+
+border:none;
+
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+}
+
+/* CTA */
+
+.cta{
+
+padding:70px 10%;
+
+background:linear-gradient(135deg,var(--green),var(--pink));
+
+color:white;
+
+text-align:center;
+
+}
+
+.cta h2{
+
+font-size:40px;
+
+margin-bottom:20px;
+
+}
+
+.cta p{
+
+font-size:18px;
+
+margin-bottom:25px;
+
+}
+
+.cta a{
+
+display:inline-block;
+
+padding:15px 35px;
+
+background:white;
+
+color:var(--green);
+
+text-decoration:none;
+
+border-radius:40px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.cta a:hover{
+
+background:#f3f3f3;
+
+}
+
+@media(max-width:768px){
+
+.banner h1{
+
+font-size:40px;
+
+}
+
+.video iframe{
+
+height:250px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<img src="images/logo.png" alt="CWIC Logo">
+
+<h2>Chels Wellness International</h2>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="services.html">Services</a></li>
+
+<li><a href="gallery.html" class="active">Gallery</a></li>
+
+<li><a href="executives.html">Executive Team</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="banner">
+
+<div>
+
+<h1>Photo Gallery</h1>
+
+<p>Capturing Our Journey, Leadership, Wellness & Community Impact</p>
+
+</div>
+
+</section>
+
+<section class="gallery">
+
+<h2>Company Gallery</h2>
+
+<p>
+
+Replace each placeholder with your own company photos.
+
+</p>
+
+<div class="grid">
+
+<div class="item">
+
+<div class="placeholder">
+
+Event Photo
+
+</div>
+
+<div class="caption">
+
+<h3>Executive Meeting</h3>
+
+<p>Leadership planning and strategic development session.</p>
+
+</div>
+
+</div>
+
+<div class="item">
+
+<div class="placeholder">
+
+Upload Image
+
+</div>
+
+<div class="caption">
+
+<h3>Wellness Program</h3>
+
+<p>Health awareness and wellness activities.</p>
+
+</div>
+
+</div>
+
+<div class="item">
+
+<div class="placeholder">
+
+Upload Image
+
+</div>
+
+<div class="caption">
+
+<h3>Community Outreach</h3>
+
+<p>Serving communities through outreach initiatives.</p>
+
+</div>
+
+</div>
+
+<div class="item">
+
+<div class="placeholder">
+
+Upload Image
+
+</div>
+
+<div class="caption">
+
+<h3>Leadership Training</h3>
+
+<p>Executive leadership and professional development.</p>
+
+</div>
+
+</div>
+
+<div class="item">
+
+<div class="placeholder">
+
+Upload Image
+
+</div>
+
+<div class="caption">
+
+<h3>Corporate Events</h3>
+
+<p>Company celebrations and official gatherings.</p>
+
+</div>
+
+</div>
+
+<div class="item">
+
+<div class="placeholder">
+
+Upload Image
+
+</div>
+
+<div class="caption">
+
+<h3>Business Partnership</h3>
+
+<p>Building strategic partnerships worldwide.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="video">
+
+<h2>Company Video</h2>
+
+<iframe
+src="https://www.youtube.com/embed/"
+allowfullscreen>
+</iframe>
+
+</section>
+
+<section class="cta">
+
+<h2>Become Part of Our Journey</h2>
+
+<p>
+
+Together we inspire wellness, leadership, innovation,
+and community development.
+
+</p>
+
+<a href="contact.html">
+
+Contact Us
+
+</a>
+
+</section>
+
+<footer>
+
+<div class="footer-content">
+
+<img src="images/logo.png" width="80">
+
+<h2>
+
+Chels Wellness International Company
+
+</h2>
+
+<p>
+
+Leadership • Wellness • Innovation
+
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+<a href="#"><i class="fas fa-envelope"></i></a>
+
+</div>
+
+<p>
+
+© 2026 Chels Wellness International Company
+
+All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
